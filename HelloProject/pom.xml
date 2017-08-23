@@ -7,14 +7,15 @@
         <groupId>com.oracle.servicebus</groupId>
         <artifactId>sbar-project-common</artifactId>
         <version>12.2.1-2-0</version>
+        <relativePath></relativePath>
     </parent>
 
     <groupId>HelloApp</groupId>
     <artifactId>HelloProject</artifactId>
     <version>1.0-SNAPSHOT</version>
-
     <packaging>sbar</packaging>
     
+    <build>
     <plugins> 
     <plugin> 
     <groupId>com.oracle.servicebus.plugin</groupId> 
@@ -26,6 +27,7 @@
     <oraclePassword>welcome1</oraclePassword> 
     </configuration> 
     </plugin> 
-</plugins>
-
+    </plugins>
+    </build>
+        
 </project>
