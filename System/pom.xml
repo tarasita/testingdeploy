@@ -14,6 +14,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <packaging>sbar</packaging>
+    <build>
     <plugins> 
     <plugin> 
     <groupId>com.oracle.servicebus.plugin</groupId> 
@@ -25,6 +26,7 @@
     <oraclePassword>welcome1</oraclePassword> 
     </configuration> 
     </plugin> 
-</plugins> 
+    </plugins> 
+    </build>
 
 </project>
