@@ -13,7 +13,7 @@
     <groupId>HelloApp</groupId>
     <artifactId>HelloProject</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>sbar</packaging>
     
     <build>
     <plugins> 
